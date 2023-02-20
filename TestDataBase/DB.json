@@ -1,0 +1,58 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "Mohamed",
+      "email": "mohamed@gmail.com",
+      "age": 24
+    },
+    {
+      "id": 2,
+      "username": "Yousef",
+      "email": "yousef@gmail.com",
+      "age": 25
+    },
+    {
+      "id": 3,
+      "username": "Omar",
+      "email": "omar@gmail.com",
+      "age": 20
+    },
+    {
+      "id": 4,
+      "username": "Ahmed",
+      "email": "ahmed@gmail.com",
+      "age": 24
+    },
+    {
+      "username": "Ayman",
+      "email": "Ayman@gmail.com",
+      "age": "22",
+      "id": 5
+    },
+    {
+      "username": "Nada",
+      "email": "nada@me.com",
+      "age": "31",
+      "id": 6
+    },
+    {
+      "username": "Edris",
+      "email": "edris@you.com",
+      "age": "24",
+      "id": 7
+    },
+    {
+      "username": "Mahmoud",
+      "email": "mahmoud@me.com",
+      "age": "26",
+      "id": 8
+    },
+    {
+      "username": "Khaled",
+      "email": "khaled@you.com",
+      "age": "35",
+      "id": 9
+    }
+  ]
+}

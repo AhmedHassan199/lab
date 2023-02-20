@@ -1,0 +1,9 @@
+<div class="alert alert-secondary" *ngIf="user ; else falseBlock">
+  <h5>UserName: {{user.username}}</h5>
+  <h5>Email: {{user.email}}</h5>
+  <h5>Age: {{user.age}}</h5>
+  <!-- <h5>{{user.}}</h5> -->
+</div>
+<ng-template #falseBlock>
+  <h1>Loading...</h1>
+</ng-template>

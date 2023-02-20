@@ -1,0 +1,26 @@
+<!-- <div class ="alert alert-info" *ngFor="let u of users">
+  <h4>UserName: {{u.username}}</h4>
+  <h4>Email:<a routerLink="/users/{{u.id}}">  {{u.email}}</a></h4>
+  <h4>Age:{{u.age}}</h4>
+</div> -->
+
+<div  *ngFor="let u of users">
+  <table class="table table-info  text-center">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>UserName</th>
+        <th>Email</th>
+        <th>Age</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">{{u.id}}</th>
+        <td>{{u.username}}</td>
+        <td>{{u.email}}</td>
+        <td>{{u.age}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
